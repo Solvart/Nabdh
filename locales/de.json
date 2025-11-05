@@ -1,0 +1,258 @@
+{
+  "global": {
+    "edit": "Bearbeiten",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "profile": "Profil",
+    "all": "Alle",
+    "close": "Schließen",
+    "confirmDelete": "Sind Sie sicher, dass Sie dieses Element löschen möchten?",
+    "toggleFilters": "Filter anzeigen/verbergen",
+    "aiExpert": "KI-Experte",
+    "viewAll": "Alle anzeigen",
+    "none": "Keine",
+    "view": "Ansehen"
+  },
+  "nav": {
+    "dashboard": "Startseite",
+    "findRequests": "Anfragen",
+    "leaderboard": "Rangliste",
+    "profile": "Profil",
+    "requests": "Anfragen",
+    "donors": "Spender",
+    "about": "Über",
+    "myRequests": "Meine Anfragen",
+    "findDonors": "Spender"
+  },
+  "home": {
+    "welcome": "Willkommen bei Nabdh",
+    "tagline": "Jeder Tropfen zählt. Verbinden, spenden, Leben retten.",
+    "donorSpace": "Spenderbereich",
+    "establishmentSpace": "Einrichtungsbereich",
+    "requesterSpace": "Anfordererbereich",
+    "copyright": "© 2024 Nabdh. Alle Rechte vorbehalten."
+  },
+  "auth": {
+    "donorSpaceTitle": "Spenderbereich",
+    "estSpaceTitle": "Einrichtungsbereich",
+    "reqSpaceTitle": "Anfordererbereich",
+    "login": "Anmelden",
+    "signup": "Registrieren",
+    "identifierLabel": "E-Mail oder Benutzername",
+    "passwordLabel": "Passwort",
+    "loginButton": "Anmelden",
+    "loginError": "Falsche Anmeldedaten.",
+    "passwordMismatch": "Passwörter stimmen nicht überein.",
+    "signupButton": "Registrieren",
+    "firstNameLabel": "Vorname",
+    "lastNameLabel": "Nachname",
+    "emailLabel": "E-Mail",
+    "confirmPasswordLabel": "Passwort bestätigen",
+    "dobLabel": "Geburtsdatum",
+    "genderLabel": "Geschlecht",
+    "gender": {
+      "male": "Männlich",
+      "female": "Weiblich"
+    },
+    "bloodGroupLabel": "Blutgruppe",
+    "phoneLabel": "Telefon",
+    "wilayaLabel": "Provinz",
+    "communeLabel": "Gemeinde",
+    "backToHome": "Zurück zur Startseite",
+    "estNameLabel": "Name der Einrichtung",
+    "estTypeLabel": "Art der Einrichtung",
+    "addressLabel": "Adresse",
+    "googleMapsUrlLabel": "Google Maps Link",
+    "fullNameLabel": "Vollständiger Name"
+  },
+  "establishmentTypes": {
+    "Hôpital": "Krankenhaus",
+    "Clinique": "Klinik",
+    "Banque_de_Sang": "Blutbank"
+  },
+  "passwordStrength": {
+    "veryWeak": "Sehr Schwach",
+    "weak": "Schwach",
+    "medium": "Mittel",
+    "strong": "Stark",
+    "veryStrong": "Sehr Stark"
+  },
+  "header": {
+    "greeting": "Hallo, {{name}}",
+    "logout": "Abmelden"
+  },
+  "dashboard": {
+    "donor": {
+      "welcome": "Willkommen, {{name}}!",
+      "subtitle": "Danke, dass Sie einen Unterschied machen.",
+      "totalPoints": "Gesamtpunkte",
+      "totalDonations": "Gespendet insgesamt",
+      "badgesEarned": "Verdiente Abzeichen",
+      "donationStatus": "Spendenstatus",
+      "lastDonation": "Letzte Spende",
+      "findRequestsDesc": "Finden Sie dringende Blutanfragen in Ihrer Nähe.",
+      "leaderboardDesc": "Sehen Sie Ihr Ranking unter den aktivsten Spendern.",
+      "myRequestsDesc": "Erstellen und verwalten Sie Ihre eigenen Blutanfragen, wenn Sie oder ein Angehöriger sie benötigen."
+    },
+    "est": {
+      "welcome": "Willkommen, {{name}}",
+      "subtitle": "Verwalten Sie Ihre Blutanfragen und finden Sie Spender.",
+      "openRequests": "Offene Anfragen",
+      "manageRequests": "Anfragen verwalten",
+      "totalDonors": "Registrierte Spender",
+      "findDonors": "Spender finden",
+      "allOpenRequests": "Übersicht der offenen Anfragen"
+    },
+    "req": {
+      "welcome": "Willkommen, {{name}}",
+      "subtitle": "Verwalten Sie Ihre Anfragen und finden Sie Hilfe.",
+      "yourRequests": "Ihre Anfragen",
+      "yourRequestsCount": "Sie haben {{count}} Anfrage(n).",
+      "myRequestsDesc": "Erstellen und verfolgen Sie Ihre Blutanfragen.",
+      "findDonorsDesc": "Suchen Sie nach kompatiblen Spendern in Ihrer Nähe."
+    }
+  },
+  "profile": {
+    "updateSuccess": "Profil erfolgreich aktualisiert.",
+    "personalInfo": "Persönliche Informationen",
+    "age": "Alter",
+    "eligible": "Spendentauglich",
+    "notEligible": "Momentan nicht spendentauglich",
+    "nextDonation": "Nächste mögliche Spende am",
+    "pointsAndBadges": "Punkte & Abzeichen",
+    "totalPoints": "Ihre Punkte",
+    "noBadges": "Sie haben noch keine Abzeichen verdient.",
+    "donationHistory": "Spendenhistorie",
+    "addDonationTitle": "Spende hinzufügen",
+    "selectEstablishment": "Bitte wählen Sie eine Einrichtung aus.",
+    "establishmentLabel": "Einrichtung",
+    "donationDateLabel": "Spendedatum",
+    "donationReasonLabel": "Grund (optional)",
+    "addDonation": "Spende hinzufügen",
+    "noDonations": "Bisher keine Spenden verzeichnet.",
+    "username": "Benutzername",
+    "establishmentInfo": "Informationen zur Einrichtung",
+    "viewDetails": "Details anzeigen",
+    "compatibleDonors": "Kompatible Spender",
+    "noCompatibleDonors": "Keine kompatiblen Spender für diese Blutgruppe in der Datenbank gefunden."
+  },
+  "charts": {
+    "noData": "Keine Daten zum Anzeigen.",
+    "donationHistoryTitle": "Spenden pro Jahr",
+    "donationsUnit": "spenden",
+    "units": "einheiten"
+  },
+  "badges": {
+    "first_donation": {
+      "name": "Erster Tropfen",
+      "description": "Herzlichen Glückwunsch zu Ihrer ersten Blutspende!"
+    },
+    "regular_donor": {
+      "name": "Regelmäßiger Spender",
+      "description": "Sie haben 5 Mal gespendet. Weiter so!"
+    },
+    "hero_donor": {
+      "name": "Helden-Spender",
+      "description": "10 Spenden! Sie sind ein wahrer Held."
+    },
+    "lifesaver": {
+      "name": "Lebensretter",
+      "description": "25 Spenden! Ihre Großzügigkeit ist unglaublich."
+    },
+    "legend": {
+      "name": "Lebende Legende",
+      "description": "50 Spenden! Sie sind eine Inspiration für alle."
+    }
+  },
+  "donorsList": {
+    "title": "Spenderliste",
+    "subtitle": "Suchen Sie nach Spendern nach Namen oder filtern Sie nach Blutgruppe und Provinz.",
+    "searchByNameLabel": "Nach Namen suchen",
+    "searchByNamePlaceholder": "Namen eingeben...",
+    "allGroups": "Alle Gruppen",
+    "allWilayas": "Alle Provinzen",
+    "noResults": "Keine Spender entsprechen Ihren Suchkriterien."
+  },
+  "myRequests": {
+    "title": "Meine Anfragen",
+    "subtitleEstablishment": "Verwalten Sie hier alle Blutanfragen Ihrer Einrichtung.",
+    "subtitleRequester": "Verwalten Sie hier alle Ihre persönlichen Blutanfragen.",
+    "newRequest": "Neue Anfrage",
+    "editRequest": "Anfrage bearbeiten",
+    "postedOn": "Veröffentlicht am",
+    "quantity": "Menge (Einheiten)",
+    "units": "Einheiten",
+    "urgency": "Dringlichkeit",
+    "notesPlaceholder": "Fügen Sie hier zusätzliche Notizen hinzu...",
+    "statusLabel": "Status",
+    "establishmentNameLabel": "Name der Einrichtung",
+    "contactNameLabel": "Kontaktname",
+    "contactPhoneLabel": "Kontakttelefon",
+    "noRequests": "Noch keine Anfragen veröffentlicht.",
+    "latitude": "Breitengrad",
+    "longitude": "Längengrad",
+    "responsesCount": "{{count}} Spender hat/haben geantwortet",
+    "approvedDonors": "Bestätigte Spender",
+    "approve": "Bestätigen",
+    "approved": "Bestätigt",
+    "approvedCount": "{{count}}/{{total}} bestätigt",
+    "respondedDonors": "Antwortende Spender",
+    "requestDetails": "Anfragedetails",
+    "requestInfo": "Anfrageinformationen",
+    "approvedDonorsList": "Bestätigte Spender",
+    "noApprovedDonors": "Für diese Anfrage wurden noch keine Spender bestätigt.",
+    "donorName": "Spendername",
+    "donorPhone": "Telefon",
+    "notes": "Notizen"
+  },
+  "status": {
+    "Open": "Offen",
+    "Closed": "Geschlossen",
+    "Fulfilled": "Erfüllt"
+  },
+  "urgency": {
+    "Normal": "Normal",
+    "Urgent": "Dringend"
+  },
+  "findRequests": {
+    "title": "Anfragen finden",
+    "subtitle": "Durchsuchen Sie aktuelle Blutanfragen.",
+    "bloodRequestFor": "Blutanfrage: Gruppe {{group}}",
+    "distanceAway": "ca. {{distance}} km entfernt",
+    "iCanDonate": "Ich kann spenden",
+    "alreadyResponded": "Sie haben geantwortet",
+    "locationPermissionDenied": "Die Berechtigung zur Standortermittlung wurde verweigert.",
+    "locationUnavailable": "Ihr Standort ist nicht verfügbar.",
+    "locationTimeout": "Die Anfrage zur Standortermittlung ist abgelaufen.",
+    "locationError": "Beim Abrufen Ihres Standorts ist ein Fehler aufgetreten.",
+    "locationErrorTitle": "Standortfehler",
+    "locationNotSupported": "Die Standortermittlung wird von Ihrem Browser nicht unterstützt.",
+    "showCompatibleOnly": "Nur kompatible Anfragen anzeigen",
+    "approvedDonors": "Bestätigte Spender"
+  },
+  "establishmentsPage": {
+    "title": "Gesundheitseinrichtungen",
+    "subtitle": "Finden Sie Krankenhäuser, Kliniken und Blutbanken.",
+    "searchByName": "Nach Namen suchen...",
+    "filterByType": "Nach Typ filtern",
+    "filterByWilaya": "Nach Provinz filtern",
+    "filterByCommune": "Nach Gemeinde filtern",
+    "noResults": "Keine Einrichtungen entsprechen Ihren Kriterien."
+  },
+  "leaderboard": {
+    "title": "Spender-Rangliste",
+    "subtitle": "Entdecken Sie die engagiertesten Spender in unserer Gemeinschaft.",
+    "you": "Sie",
+    "viewProfile": "Profil ansehen"
+  },
+  "publicProfile": {
+    "notFound": "Spender nicht gefunden.",
+    "backToLeaderboard": "Zurück zur Rangliste"
+  },
+  "aiExpertPage": {
+    "title": "KI-Experte für Blutspenden",
+    "welcome": "Hallo! Ich bin Ihr virtueller Assistent für alle Ihre Fragen zur Blutspende. Wie kann ich Ihnen helfen?",
+    "inputPlaceholder": "Stellen Sie hier Ihre Frage...",
+    "genericError": "Entschuldigung, ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut."
+  }
+}

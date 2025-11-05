@@ -1,0 +1,258 @@
+{
+  "global": {
+    "edit": "Editar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "profile": "Perfil",
+    "all": "Todos",
+    "close": "Cerrar",
+    "confirmDelete": "¿Estás seguro de que quieres eliminar este elemento?",
+    "toggleFilters": "Mostrar/Ocultar Filtros",
+    "aiExpert": "Experto IA",
+    "viewAll": "Ver todo",
+    "none": "Ninguno",
+    "view": "Ver"
+  },
+  "nav": {
+    "dashboard": "Inicio",
+    "findRequests": "Solicitudes",
+    "leaderboard": "Clasificación",
+    "profile": "Perfil",
+    "requests": "Solicitudes",
+    "donors": "Donantes",
+    "about": "Acerca de",
+    "myRequests": "Mis Solicitudes",
+    "findDonors": "Donantes"
+  },
+  "home": {
+    "welcome": "Bienvenido a Nabdh",
+    "tagline": "Cada gota cuenta. Conéctate, dona, salva vidas.",
+    "donorSpace": "Espacio del Donante",
+    "establishmentSpace": "Espacio del Establecimiento",
+    "requesterSpace": "Espacio del Solicitante",
+    "copyright": "© 2024 Nabdh. Todos los derechos reservados."
+  },
+  "auth": {
+    "donorSpaceTitle": "Espacio del Donante",
+    "estSpaceTitle": "Espacio del Establecimiento",
+    "reqSpaceTitle": "Espacio del Solicitante",
+    "login": "Iniciar Sesión",
+    "signup": "Registrarse",
+    "identifierLabel": "Correo electrónico o nombre de usuario",
+    "passwordLabel": "Contraseña",
+    "loginButton": "Iniciar Sesión",
+    "loginError": "Credenciales incorrectas.",
+    "passwordMismatch": "Las contraseñas no coinciden.",
+    "signupButton": "Registrarse",
+    "firstNameLabel": "Nombre",
+    "lastNameLabel": "Apellido",
+    "emailLabel": "Correo Electrónico",
+    "confirmPasswordLabel": "Confirmar Contraseña",
+    "dobLabel": "Fecha de Nacimiento",
+    "genderLabel": "Género",
+    "gender": {
+      "male": "Masculino",
+      "female": "Femenino"
+    },
+    "bloodGroupLabel": "Grupo Sanguíneo",
+    "phoneLabel": "Teléfono",
+    "wilayaLabel": "Provincia",
+    "communeLabel": "Municipio",
+    "backToHome": "Volver al Inicio",
+    "estNameLabel": "Nombre del Establecimiento",
+    "estTypeLabel": "Tipo de Establecimiento",
+    "addressLabel": "Dirección",
+    "googleMapsUrlLabel": "Enlace de Google Maps",
+    "fullNameLabel": "Nombre Completo"
+  },
+  "establishmentTypes": {
+    "Hôpital": "Hospital",
+    "Clinique": "Clínica",
+    "Banque_de_Sang": "Banco de Sangre"
+  },
+  "passwordStrength": {
+    "veryWeak": "Muy Débil",
+    "weak": "Débil",
+    "medium": "Media",
+    "strong": "Fuerte",
+    "veryStrong": "Muy Fuerte"
+  },
+  "header": {
+    "greeting": "Hola, {{name}}",
+    "logout": "Cerrar Sesión"
+  },
+  "dashboard": {
+    "donor": {
+      "welcome": "¡Bienvenido, {{name}}!",
+      "subtitle": "Gracias por marcar la diferencia.",
+      "totalPoints": "Puntos Totales",
+      "totalDonations": "Donaciones Totales",
+      "badgesEarned": "Insignias Ganadas",
+      "donationStatus": "Estado de Donación",
+      "lastDonation": "Última donación",
+      "findRequestsDesc": "Encuentra solicitudes de sangre urgentes cerca de ti.",
+      "leaderboardDesc": "Mira tu clasificación entre los donantes más activos.",
+      "myRequestsDesc": "Crea y gestiona tus propias solicitudes de sangre si tú o un ser querido lo necesita."
+    },
+    "est": {
+      "welcome": "Bienvenido, {{name}}",
+      "subtitle": "Gestiona tus solicitudes de sangre y encuentra donantes.",
+      "openRequests": "Solicitudes Abiertas",
+      "manageRequests": "Gestionar Solicitudes",
+      "totalDonors": "Donantes Registrados",
+      "findDonors": "Encontrar Donantes",
+      "allOpenRequests": "Resumen de Solicitudes Abiertas"
+    },
+    "req": {
+      "welcome": "Bienvenido, {{name}}",
+      "subtitle": "Gestiona tus solicitudes y encuentra ayuda.",
+      "yourRequests": "Tus Solicitudes",
+      "yourRequestsCount": "Tienes {{count}} solicitud(es).",
+      "myRequestsDesc": "Crea y sigue tus solicitudes de sangre.",
+      "findDonorsDesc": "Busca donantes compatibles en tu área."
+    }
+  },
+  "profile": {
+    "updateSuccess": "Perfil actualizado con éxito.",
+    "personalInfo": "Información Personal",
+    "age": "Edad",
+    "eligible": "Apto para Donar",
+    "notEligible": "No apto por el momento",
+    "nextDonation": "Próxima donación posible el",
+    "pointsAndBadges": "Puntos e Insignias",
+    "totalPoints": "Tus Puntos",
+    "noBadges": "Aún no has ganado ninguna insignia.",
+    "donationHistory": "Historial de Donaciones",
+    "addDonationTitle": "Añadir una Donación",
+    "selectEstablishment": "Por favor, selecciona un establecimiento.",
+    "establishmentLabel": "Establecimiento",
+    "donationDateLabel": "Fecha de Donación",
+    "donationReasonLabel": "Razón (opcional)",
+    "addDonation": "Añadir Donación",
+    "noDonations": "Aún no hay donaciones registradas.",
+    "username": "Nombre de usuario",
+    "establishmentInfo": "Información del Establecimiento",
+    "viewDetails": "Ver Detalles",
+    "compatibleDonors": "Donantes Compatibles",
+    "noCompatibleDonors": "No se encontraron donantes compatibles en la base de datos para este grupo sanguíneo."
+  },
+  "charts": {
+    "noData": "No hay datos para mostrar.",
+    "donationHistoryTitle": "Donaciones por Año",
+    "donationsUnit": "donaciones",
+    "units": "unidades"
+  },
+  "badges": {
+    "first_donation": {
+      "name": "Primera Gota",
+      "description": "¡Felicidades por tu primera donación de sangre!"
+    },
+    "regular_donor": {
+      "name": "Donante Regular",
+      "description": "Has hecho 5 donaciones. ¡Sigue así!"
+    },
+    "hero_donor": {
+      "name": "Donante Héroe",
+      "description": "¡10 donaciones! Eres un verdadero héroe."
+    },
+    "lifesaver": {
+      "name": "Salvavidas",
+      "description": "¡25 donaciones! Tu generosidad es increíble."
+    },
+    "legend": {
+      "name": "Leyenda Viviente",
+      "description": "¡50 donaciones! Eres una inspiración para todos."
+    }
+  },
+  "donorsList": {
+    "title": "Lista de Donantes",
+    "subtitle": "Busca donantes por nombre o filtra por grupo sanguíneo y provincia.",
+    "searchByNameLabel": "Buscar por nombre",
+    "searchByNamePlaceholder": "Introduce un nombre...",
+    "allGroups": "Todos los grupos",
+    "allWilayas": "Todas las provincias",
+    "noResults": "Ningún donante coincide con tus criterios de búsqueda."
+  },
+  "myRequests": {
+    "title": "Mis Solicitudes",
+    "subtitleEstablishment": "Gestiona aquí todas las solicitudes de sangre de tu establecimiento.",
+    "subtitleRequester": "Gestiona aquí todas tus solicitudes de sangre personales.",
+    "newRequest": "Nueva Solicitud",
+    "editRequest": "Editar Solicitud",
+    "postedOn": "Publicado el",
+    "quantity": "Cantidad (unidades)",
+    "units": "unidades",
+    "urgency": "Urgencia",
+    "notesPlaceholder": "Añade notas adicionales aquí...",
+    "statusLabel": "Estado",
+    "establishmentNameLabel": "Nombre del Establecimiento",
+    "contactNameLabel": "Nombre de Contacto",
+    "contactPhoneLabel": "Teléfono de Contacto",
+    "noRequests": "Aún no se han publicado solicitudes.",
+    "latitude": "Latitud",
+    "longitude": "Longitud",
+    "responsesCount": "{{count}} donante(s) ha respondido",
+    "approvedDonors": "Donantes Aprobados",
+    "approve": "Aprobar",
+    "approved": "Aprobado",
+    "approvedCount": "{{count}}/{{total}} aprobados",
+    "respondedDonors": "Donantes que respondieron",
+    "requestDetails": "Detalles de la Solicitud",
+    "requestInfo": "Información de la Solicitud",
+    "approvedDonorsList": "Donantes Aprobados",
+    "noApprovedDonors": "Aún no se han aprobado donantes para esta solicitud.",
+    "donorName": "Nombre del Donante",
+    "donorPhone": "Teléfono",
+    "notes": "Notas"
+  },
+  "status": {
+    "Open": "Abierta",
+    "Closed": "Cerrada",
+    "Fulfilled": "Completada"
+  },
+  "urgency": {
+    "Normal": "Normal",
+    "Urgent": "Urgente"
+  },
+  "findRequests": {
+    "title": "Buscar Solicitudes",
+    "subtitle": "Consulta las solicitudes de sangre actuales.",
+    "bloodRequestFor": "Solicitud de sangre: Grupo {{group}}",
+    "distanceAway": "a ~{{distance}} km",
+    "iCanDonate": "Puedo donar",
+    "alreadyResponded": "Has respondido",
+    "locationPermissionDenied": "Se denegó el permiso de geolocalización.",
+    "locationUnavailable": "Tu ubicación no está disponible.",
+    "locationTimeout": "La solicitud de geolocalización ha caducado.",
+    "locationError": "Se ha producido un error al recuperar tu ubicación.",
+    "locationErrorTitle": "Error de Geolocalización",
+    "locationNotSupported": "La geolocalización no es compatible con tu navegador.",
+    "showCompatibleOnly": "Mostrar solo solicitudes compatibles",
+    "approvedDonors": "Donantes aprobados"
+  },
+  "establishmentsPage": {
+    "title": "Establecimientos de Salud",
+    "subtitle": "Encuentra hospitales, clínicas y bancos de sangre.",
+    "searchByName": "Buscar por nombre...",
+    "filterByType": "Filtrar por tipo",
+    "filterByWilaya": "Filtrar por provincia",
+    "filterByCommune": "Filtrar por municipio",
+    "noResults": "Ningún establecimiento coincide con tus criterios."
+  },
+  "leaderboard": {
+    "title": "Clasificación de Donantes",
+    "subtitle": "Descubre a los donantes más comprometidos de nuestra comunidad.",
+    "you": "Tú",
+    "viewProfile": "Ver perfil"
+  },
+  "publicProfile": {
+    "notFound": "Donante no encontrado.",
+    "backToLeaderboard": "Volver a la Clasificación"
+  },
+  "aiExpertPage": {
+    "title": "Experto en Donación de Sangre con IA",
+    "welcome": "¡Hola! Soy tu asistente virtual para todas tus preguntas sobre la donación de sangre. ¿Cómo puedo ayudarte?",
+    "inputPlaceholder": "Haz tu pregunta aquí...",
+    "genericError": "Lo sentimos, ha ocurrido un error. Por favor, inténtalo de nuevo más tarde."
+  }
+}

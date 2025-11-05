@@ -1,0 +1,258 @@
+{
+  "global": {
+    "edit": "تعديل",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "profile": "الملف الشخصي",
+    "all": "الكل",
+    "close": "إغلاق",
+    "confirmDelete": "هل أنت متأكد من رغبتك في حذف هذا العنصر؟",
+    "toggleFilters": "إظهار/إخفاء الفلاتر",
+    "aiExpert": "خبير الذكاء الاصطناعي",
+    "viewAll": "عرض الكل",
+    "none": "لا يوجد",
+    "view": "عرض"
+  },
+  "nav": {
+    "dashboard": "الرئيسية",
+    "findRequests": "الطلبات",
+    "leaderboard": "الترتيب",
+    "profile": "الملف الشخصي",
+    "requests": "الطلبات",
+    "donors": "المتبرعون",
+    "about": "حول",
+    "myRequests": "طلباتي",
+    "findDonors": "المتبرعون"
+  },
+  "home": {
+    "welcome": "مرحبًا بكم في نبض",
+    "tagline": "كل قطرة تهم. تواصل، تبرع، أنقذ حياة.",
+    "donorSpace": "فضاء المتبرع",
+    "establishmentSpace": "فضاء المؤسسة",
+    "requesterSpace": "فضاء الطالب",
+    "copyright": "© 2024 نبض. كل الحقوق محفوظة."
+  },
+  "auth": {
+    "donorSpaceTitle": "فضاء المتبرع",
+    "estSpaceTitle": "فضاء المؤسسة",
+    "reqSpaceTitle": "فضاء الطالب",
+    "login": "تسجيل الدخول",
+    "signup": "تسجيل",
+    "identifierLabel": "البريد الإلكتروني أو اسم المستخدم",
+    "passwordLabel": "كلمة المرور",
+    "loginButton": "تسجيل الدخول",
+    "loginError": "بيانات الاعتماد غير صحيحة.",
+    "passwordMismatch": "كلمات المرور غير متطابقة.",
+    "signupButton": "تسجيل",
+    "firstNameLabel": "الاسم الأول",
+    "lastNameLabel": "اسم العائلة",
+    "emailLabel": "البريد الإلكتروني",
+    "confirmPasswordLabel": "تأكيد كلمة المرور",
+    "dobLabel": "تاريخ الميلاد",
+    "genderLabel": "الجنس",
+    "gender": {
+      "male": "ذكر",
+      "female": "أنثى"
+    },
+    "bloodGroupLabel": "فصيلة الدم",
+    "phoneLabel": "الهاتف",
+    "wilayaLabel": "الولاية",
+    "communeLabel": "البلدية",
+    "backToHome": "العودة إلى الصفحة الرئيسية",
+    "estNameLabel": "اسم المؤسسة",
+    "estTypeLabel": "نوع المؤسسة",
+    "addressLabel": "العنوان",
+    "googleMapsUrlLabel": "رابط خرائط جوجل",
+    "fullNameLabel": "الاسم الكامل"
+  },
+  "establishmentTypes": {
+    "Hôpital": "مستشفى",
+    "Clinique": "عيادة",
+    "Banque_de_Sang": "بنك الدم"
+  },
+  "passwordStrength": {
+    "veryWeak": "ضعيف جدا",
+    "weak": "ضعيف",
+    "medium": "متوسط",
+    "strong": "قوي",
+    "veryStrong": "قوي جدا"
+  },
+  "header": {
+    "greeting": "مرحبًا، {{name}}",
+    "logout": "تسجيل الخروج"
+  },
+  "dashboard": {
+    "donor": {
+      "welcome": "مرحبًا، {{name}}!",
+      "subtitle": "شكرًا لك على إحداث فرق.",
+      "totalPoints": "مجموع النقاط",
+      "totalDonations": "مجموع التبرعات",
+      "badgesEarned": "الشارات المكتسبة",
+      "donationStatus": "حالة التبرع",
+      "lastDonation": "آخر تبرع",
+      "findRequestsDesc": "ابحث عن طلبات الدم العاجلة بالقرب منك.",
+      "leaderboardDesc": "شاهد ترتيبك بين أكثر المتبرعين نشاطًا.",
+      "myRequestsDesc": "أنشئ وأدر طلبات الدم الخاصة بك إذا احتجت أنت أو أحد أفراد أسرتك إليها."
+    },
+    "est": {
+      "welcome": "مرحبًا، {{name}}",
+      "subtitle": "إدارة طلبات الدم الخاصة بك والعثور على المتبرعين.",
+      "openRequests": "الطلبات المفتوحة",
+      "manageRequests": "إدارة الطلبات",
+      "totalDonors": "المتبرعون المسجلون",
+      "findDonors": "البحث عن المتبرعين",
+      "allOpenRequests": "نظرة عامة على الطلبات المفتوحة"
+    },
+    "req": {
+      "welcome": "مرحبًا، {{name}}",
+      "subtitle": "إدارة طلباتك والعثور على المساعدة.",
+      "yourRequests": "طلباتك",
+      "yourRequestsCount": "لديك {{count}} طلب(ات).",
+      "myRequestsDesc": "إنشاء وتتبع طلبات الدم الخاصة بك.",
+      "findDonorsDesc": "ابحث عن المتبرعين المتوافقين في منطقتك."
+    }
+  },
+  "profile": {
+    "updateSuccess": "تم تحديث الملف الشخصي بنجاح.",
+    "personalInfo": "المعلومات الشخصية",
+    "age": "العمر",
+    "eligible": "مؤهل للتبرع",
+    "notEligible": "غير مؤهل حاليًا",
+    "nextDonation": "التبرع القادم ممكن في",
+    "pointsAndBadges": "النقاط والشارات",
+    "totalPoints": "نقاطك",
+    "noBadges": "لم تكسب أي شارات بعد.",
+    "donationHistory": "سجل التبرعات",
+    "addDonationTitle": "إضافة تبرع",
+    "selectEstablishment": "الرجاء تحديد مؤسسة.",
+    "establishmentLabel": "المؤسسة",
+    "donationDateLabel": "تاريخ التبرع",
+    "donationReasonLabel": "السبب (اختياري)",
+    "addDonation": "إضافة تبرع",
+    "noDonations": "لا توجد تبرعات مسجلة حتى الآن.",
+    "username": "اسم المستخدم",
+    "establishmentInfo": "معلومات المؤسسة",
+    "viewDetails": "عرض التفاصيل",
+    "compatibleDonors": "المتبرعون المتوافقون",
+    "noCompatibleDonors": "لم يتم العثور على متبرعين متوافقين في قاعدة البيانات لهذه الفصيلة."
+  },
+  "charts": {
+    "noData": "لا توجد بيانات لعرضها.",
+    "donationHistoryTitle": "التبرعات حسب السنة",
+    "donationsUnit": "تبرعات",
+    "units": "وحدات"
+  },
+  "badges": {
+    "first_donation": {
+      "name": "القطرة الأولى",
+      "description": "تهانينا على تبرعك الأول بالدم!"
+    },
+    "regular_donor": {
+      "name": "متبرع منتظم",
+      "description": "لقد قمت بـ 5 تبرعات. استمر في ذلك!"
+    },
+    "hero_donor": {
+      "name": "متبرع بطل",
+      "description": "10 تبرعات! أنت بطل حقيقي."
+    },
+    "lifesaver": {
+      "name": "منقذ حياة",
+      "description": "25 تبرعًا! كرمك لا يصدق."
+    },
+    "legend": {
+      "name": "أسطورة حية",
+      "description": "50 تبرعًا! أنت مصدر إلهام للجميع."
+    }
+  },
+  "donorsList": {
+    "title": "قائمة المتبرعين",
+    "subtitle": "ابحث عن المتبرعين بالاسم أو قم بالتصفية حسب فصيلة الدم والولاية.",
+    "searchByNameLabel": "البحث بالاسم",
+    "searchByNamePlaceholder": "أدخل اسمًا...",
+    "allGroups": "كل الفصائل",
+    "allWilayas": "كل الولايات",
+    "noResults": "لا يوجد متبرعون يطابقون معايير البحث الخاصة بك."
+  },
+  "myRequests": {
+    "title": "طلباتي",
+    "subtitleEstablishment": "إدارة جميع طلبات الدم الخاصة بمؤسستك هنا.",
+    "subtitleRequester": "إدارة جميع طلبات الدم الشخصية الخاصة بك هنا.",
+    "newRequest": "طلب جديد",
+    "editRequest": "تعديل الطلب",
+    "postedOn": "نشر في",
+    "quantity": "الكمية (وحدات)",
+    "units": "وحدات",
+    "urgency": "الأهمية",
+    "notesPlaceholder": "أضف ملاحظات إضافية هنا...",
+    "statusLabel": "الحالة",
+    "establishmentNameLabel": "اسم المؤسسة",
+    "contactNameLabel": "اسم جهة الاتصال",
+    "contactPhoneLabel": "هاتف جهة الاتصال",
+    "noRequests": "لم يتم نشر أي طلبات بعد.",
+    "latitude": "خط العرض",
+    "longitude": "خط الطول",
+    "responsesCount": "استجاب {{count}} متبرع",
+    "approvedDonors": "المتبرعون المعتمدون",
+    "approve": "اعتماد",
+    "approved": "معتمد",
+    "approvedCount": "{{count}}/{{total}} معتمد",
+    "respondedDonors": "المتبرعون الذين استجابوا",
+    "requestDetails": "تفاصيل الطلب",
+    "requestInfo": "معلومات الطلب",
+    "approvedDonorsList": "المتبرعون المعتمدون",
+    "noApprovedDonors": "لم يتم اعتماد أي متبرعين لهذا الطلب بعد.",
+    "donorName": "اسم المتبرع",
+    "donorPhone": "الهاتف",
+    "notes": "ملاحظات"
+  },
+  "status": {
+    "Open": "مفتوح",
+    "Closed": "مغلق",
+    "Fulfilled": "مكتمل"
+  },
+  "urgency": {
+    "Normal": "عادي",
+    "Urgent": "عاجل"
+  },
+  "findRequests": {
+    "title": "البحث عن الطلبات",
+    "subtitle": "تصفح طلبات الدم الحالية.",
+    "bloodRequestFor": "طلب دم: فصيلة {{group}}",
+    "distanceAway": "على بعد {{distance}} كم تقريبًا",
+    "iCanDonate": "يمكنني التبرع",
+    "alreadyResponded": "لقد استجبت",
+    "locationPermissionDenied": "تم رفض إذن تحديد الموقع الجغرافي.",
+    "locationUnavailable": "موقعك غير متاح.",
+    "locationTimeout": "انتهت مهلة طلب تحديد الموقع الجغرافي.",
+    "locationError": "حدث خطأ أثناء استرداد موقعك.",
+    "locationErrorTitle": "خطأ في تحديد الموقع",
+    "locationNotSupported": "متصفحك لا يدعم تحديد الموقع الجغرافي.",
+    "showCompatibleOnly": "إظهار الطلبات المتوافقة فقط",
+    "approvedDonors": "المتبرعون المعتمدون"
+  },
+  "establishmentsPage": {
+    "title": "المؤسسات الصحية",
+    "subtitle": "ابحث عن المستشفيات والعيادات وبنوك الدم.",
+    "searchByName": "البحث بالاسم...",
+    "filterByType": "التصفية حسب النوع",
+    "filterByWilaya": "التصفية حسب الولاية",
+    "filterByCommune": "التصفية حسب البلدية",
+    "noResults": "لا توجد مؤسسات تطابق معاييرك."
+  },
+  "leaderboard": {
+    "title": "ترتيب المتبرعين",
+    "subtitle": "اكتشف أكثر المتبرعين التزامًا في مجتمعنا.",
+    "you": "أنت",
+    "viewProfile": "عرض الملف الشخصي"
+  },
+  "publicProfile": {
+    "notFound": "لم يتم العثور على المتبرع.",
+    "backToLeaderboard": "العودة إلى الترتيب"
+  },
+  "aiExpertPage": {
+    "title": "خبير التبرع بالدم بالذكاء الاصطناعي",
+    "welcome": "مرحبًا! أنا مساعدك الافتراضي لجميع أسئلتك حول التبرع بالدم. كيف يمكنني مساعدتك؟",
+    "inputPlaceholder": "اطرح سؤالك هنا...",
+    "genericError": "عذرًا، حدث خطأ. يرجى المحاولة مرة أخرى لاحقًا."
+  }
+}

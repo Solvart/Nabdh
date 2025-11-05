@@ -1,0 +1,258 @@
+{
+  "global": {
+    "edit": "Edit",
+    "save": "Save",
+    "cancel": "Cancel",
+    "profile": "Profile",
+    "all": "All",
+    "close": "Close",
+    "confirmDelete": "Are you sure you want to delete this item?",
+    "toggleFilters": "Show/Hide Filters",
+    "aiExpert": "AI Expert",
+    "viewAll": "View All",
+    "none": "None",
+    "view": "View"
+  },
+  "nav": {
+    "dashboard": "Home",
+    "findRequests": "Requests",
+    "leaderboard": "Leaderboard",
+    "profile": "Profile",
+    "requests": "Requests",
+    "donors": "Donors",
+    "about": "About",
+    "myRequests": "My Requests",
+    "findDonors": "Donors"
+  },
+  "home": {
+    "welcome": "Welcome to Nabdh",
+    "tagline": "Every drop counts. Connect, donate, save lives.",
+    "donorSpace": "Donor Space",
+    "establishmentSpace": "Establishment Space",
+    "requesterSpace": "Requester Space",
+    "copyright": "© 2024 Nabdh. All rights reserved."
+  },
+  "auth": {
+    "donorSpaceTitle": "Donor Space",
+    "estSpaceTitle": "Establishment Space",
+    "reqSpaceTitle": "Requester Space",
+    "login": "Login",
+    "signup": "Sign Up",
+    "identifierLabel": "Email or username",
+    "passwordLabel": "Password",
+    "loginButton": "Log In",
+    "loginError": "Incorrect credentials.",
+    "passwordMismatch": "Passwords do not match.",
+    "signupButton": "Sign Up",
+    "firstNameLabel": "First Name",
+    "lastNameLabel": "Last Name",
+    "emailLabel": "Email",
+    "confirmPasswordLabel": "Confirm Password",
+    "dobLabel": "Date of Birth",
+    "genderLabel": "Gender",
+    "gender": {
+      "male": "Male",
+      "female": "Female"
+    },
+    "bloodGroupLabel": "Blood Group",
+    "phoneLabel": "Phone",
+    "wilayaLabel": "State/Province",
+    "communeLabel": "City/Commune",
+    "backToHome": "Back to Home",
+    "estNameLabel": "Establishment Name",
+    "estTypeLabel": "Establishment Type",
+    "addressLabel": "Address",
+    "googleMapsUrlLabel": "Google Maps Link",
+    "fullNameLabel": "Full Name"
+  },
+  "establishmentTypes": {
+    "Hôpital": "Hospital",
+    "Clinique": "Clinic",
+    "Banque_de_Sang": "Blood Bank"
+  },
+  "passwordStrength": {
+    "veryWeak": "Very Weak",
+    "weak": "Weak",
+    "medium": "Medium",
+    "strong": "Strong",
+    "veryStrong": "Very Strong"
+  },
+  "header": {
+    "greeting": "Hello, {{name}}",
+    "logout": "Logout"
+  },
+  "dashboard": {
+    "donor": {
+      "welcome": "Welcome, {{name}}!",
+      "subtitle": "Thank you for making a difference.",
+      "totalPoints": "Total Points",
+      "totalDonations": "Total Donations",
+      "badgesEarned": "Badges Earned",
+      "donationStatus": "Donation Status",
+      "lastDonation": "Last donation",
+      "findRequestsDesc": "Find urgent blood requests near you.",
+      "leaderboardDesc": "See your ranking among the most active donors.",
+      "myRequestsDesc": "Create and manage your own blood requests if you or a loved one is in need."
+    },
+    "est": {
+      "welcome": "Welcome, {{name}}",
+      "subtitle": "Manage your blood requests and find donors.",
+      "openRequests": "Open Requests",
+      "manageRequests": "Manage Requests",
+      "totalDonors": "Registered Donors",
+      "findDonors": "Find Donors",
+      "allOpenRequests": "Overview of Open Requests"
+    },
+    "req": {
+      "welcome": "Welcome, {{name}}",
+      "subtitle": "Manage your requests and find help.",
+      "yourRequests": "Your Requests",
+      "yourRequestsCount": "You have {{count}} request(s).",
+      "myRequestsDesc": "Create and track your blood requests.",
+      "findDonorsDesc": "Search for compatible donors in your area."
+    }
+  },
+  "profile": {
+    "updateSuccess": "Profile updated successfully.",
+    "personalInfo": "Personal Information",
+    "age": "Age",
+    "eligible": "Eligible to Donate",
+    "notEligible": "Not eligible at the moment",
+    "nextDonation": "Next possible donation on",
+    "pointsAndBadges": "Points & Badges",
+    "totalPoints": "Your Points",
+    "noBadges": "You haven't earned any badges yet.",
+    "donationHistory": "Donation History",
+    "addDonationTitle": "Add a Donation",
+    "selectEstablishment": "Please select an establishment.",
+    "establishmentLabel": "Establishment",
+    "donationDateLabel": "Donation Date",
+    "donationReasonLabel": "Reason (optional)",
+    "addDonation": "Add Donation",
+    "noDonations": "No donations recorded yet.",
+    "username": "Username",
+    "establishmentInfo": "Establishment Information",
+    "viewDetails": "View Details",
+    "compatibleDonors": "Compatible Donors",
+    "noCompatibleDonors": "No compatible donors found in the database for this blood group."
+  },
+  "charts": {
+    "noData": "No data to display.",
+    "donationHistoryTitle": "Donations per Year",
+    "donationsUnit": "donations",
+    "units": "units"
+  },
+  "badges": {
+    "first_donation": {
+      "name": "First Drop",
+      "description": "Congratulations on your first blood donation!"
+    },
+    "regular_donor": {
+      "name": "Regular Donor",
+      "description": "You've made 5 donations. Keep it up!"
+    },
+    "hero_donor": {
+      "name": "Hero Donor",
+      "description": "10 donations! You are a true hero."
+    },
+    "lifesaver": {
+      "name": "Lifesaver",
+      "description": "25 donations! Your generosity is incredible."
+    },
+    "legend": {
+      "name": "Living Legend",
+      "description": "50 donations! You are an inspiration to all."
+    }
+  },
+  "donorsList": {
+    "title": "Donors List",
+    "subtitle": "Search for donors by name or filter by blood group and state.",
+    "searchByNameLabel": "Search by name",
+    "searchByNamePlaceholder": "Enter a name...",
+    "allGroups": "All groups",
+    "allWilayas": "All states",
+    "noResults": "No donors match your search criteria."
+  },
+  "myRequests": {
+    "title": "My Requests",
+    "subtitleEstablishment": "Manage all your establishment's blood requests here.",
+    "subtitleRequester": "Manage all your personal blood requests here.",
+    "newRequest": "New Request",
+    "editRequest": "Edit Request",
+    "postedOn": "Posted on",
+    "quantity": "Quantity (units)",
+    "units": "units",
+    "urgency": "Urgency",
+    "notesPlaceholder": "Add additional notes here...",
+    "statusLabel": "Status",
+    "establishmentNameLabel": "Establishment Name",
+    "contactNameLabel": "Contact Name",
+    "contactPhoneLabel": "Contact Phone",
+    "noRequests": "No requests published yet.",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "responsesCount": "{{count}} donor(s) responded",
+    "approvedDonors": "Approved Donors",
+    "approve": "Approve",
+    "approved": "Approved",
+    "approvedCount": "{{count}}/{{total}} approved",
+    "respondedDonors": "Responded Donors",
+    "requestDetails": "Request Details",
+    "requestInfo": "Request Information",
+    "approvedDonorsList": "Approved Donors",
+    "noApprovedDonors": "No donors have been approved for this request yet.",
+    "donorName": "Donor Name",
+    "donorPhone": "Phone",
+    "notes": "Notes"
+  },
+  "status": {
+    "Open": "Open",
+    "Closed": "Closed",
+    "Fulfilled": "Fulfilled"
+  },
+  "urgency": {
+    "Normal": "Normal",
+    "Urgent": "Urgent"
+  },
+  "findRequests": {
+    "title": "Find Requests",
+    "subtitle": "Browse current blood requests.",
+    "bloodRequestFor": "Blood request: Group {{group}}",
+    "distanceAway": "~{{distance}} km away",
+    "iCanDonate": "I can donate",
+    "alreadyResponded": "You have responded",
+    "locationPermissionDenied": "Geolocation permission was denied.",
+    "locationUnavailable": "Your location is unavailable.",
+    "locationTimeout": "The geolocation request timed out.",
+    "locationError": "An error occurred while retrieving your location.",
+    "locationErrorTitle": "Geolocation Error",
+    "locationNotSupported": "Geolocation is not supported by your browser.",
+    "showCompatibleOnly": "Show compatible requests only",
+    "approvedDonors": "Approved donors"
+  },
+  "establishmentsPage": {
+    "title": "Health Establishments",
+    "subtitle": "Find hospitals, clinics, and blood banks.",
+    "searchByName": "Search by name...",
+    "filterByType": "Filter by type",
+    "filterByWilaya": "Filter by state",
+    "filterByCommune": "Filter by city",
+    "noResults": "No establishments match your criteria."
+  },
+  "leaderboard": {
+    "title": "Donors Leaderboard",
+    "subtitle": "Discover the most committed donors in our community.",
+    "you": "You",
+    "viewProfile": "View profile"
+  },
+  "publicProfile": {
+    "notFound": "Donor not found.",
+    "backToLeaderboard": "Back to Leaderboard"
+  },
+  "aiExpertPage": {
+    "title": "AI Blood Donation Expert",
+    "welcome": "Hello! I am your virtual assistant for all your questions about blood donation. How can I help you?",
+    "inputPlaceholder": "Ask your question here...",
+    "genericError": "Sorry, an error occurred. Please try again later."
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "global": {
+    "edit": "编辑",
+    "save": "保存",
+    "cancel": "取消",
+    "profile": "个人资料",
+    "all": "全部",
+    "close": "关闭",
+    "confirmDelete": "您确定要删除此项目吗？",
+    "toggleFilters": "显示/隐藏筛选器",
+    "aiExpert": "人工智能专家",
+    "viewAll": "查看全部",
+    "none": "无",
+    "view": "查看"
+  },
+  "nav": {
+    "dashboard": "首页",
+    "findRequests": "请求",
+    "leaderboard": "排行榜",
+    "profile": "个人资料",
+    "requests": "请求",
+    "donors": "捐赠者",
+    "about": "关于",
+    "myRequests": "我的请求",
+    "findDonors": "捐赠者"
+  },
+  "home": {
+    "welcome": "欢迎来到 Nabdh",
+    "tagline": "每一滴都很重要。连接，捐赠，拯救生命。",
+    "donorSpace": "捐赠者空间",
+    "establishmentSpace": "机构空间",
+    "requesterSpace": "请求者空间",
+    "copyright": "© 2024 Nabdh。保留所有权利。"
+  },
+  "auth": {
+    "donorSpaceTitle": "捐赠者空间",
+    "estSpaceTitle": "机构空间",
+    "reqSpaceTitle": "请求者空间",
+    "login": "登录",
+    "signup": "注册",
+    "identifierLabel": "电子邮件或用户名",
+    "passwordLabel": "密码",
+    "loginButton": "登录",
+    "loginError": "凭据不正确。",
+    "passwordMismatch": "密码不匹配。",
+    "signupButton": "注册",
+    "firstNameLabel": "名",
+    "lastNameLabel": "姓",
+    "emailLabel": "电子邮件",
+    "confirmPasswordLabel": "确认密码",
+    "dobLabel": "出生日期",
+    "genderLabel": "性别",
+    "gender": {
+      "male": "男性",
+      "female": "女性"
+    },
+    "bloodGroupLabel": "血型",
+    "phoneLabel": "电话",
+    "wilayaLabel": "省",
+    "communeLabel": "市",
+    "backToHome": "返回首页",
+    "estNameLabel": "机构名称",
+    "estTypeLabel": "机构类型",
+    "addressLabel": "地址",
+    "googleMapsUrlLabel": "谷歌地图链接",
+    "fullNameLabel": "全名"
+  },
+  "establishmentTypes": {
+    "Hôpital": "医院",
+    "Clinique": "诊所",
+    "Banque_de_Sang": "血库"
+  },
+  "passwordStrength": {
+    "veryWeak": "非常弱",
+    "weak": "弱",
+    "medium": "中",
+    "strong": "强",
+    "veryStrong": "非常强"
+  },
+  "header": {
+    "greeting": "你好，{{name}}",
+    "logout": "登出"
+  },
+  "dashboard": {
+    "donor": {
+      "welcome": "欢迎，{{name}}！",
+      "subtitle": "感谢您做出贡献。",
+      "totalPoints": "总积分",
+      "totalDonations": "总捐赠次数",
+      "badgesEarned": "获得的徽章",
+      "donationStatus": "捐赠状态",
+      "lastDonation": "上次捐赠",
+      "findRequestsDesc": "查找您附近的紧急血液请求。",
+      "leaderboardDesc": "查看您在最活跃的捐赠者中的排名。",
+      "myRequestsDesc": "如果您或您的亲人需要，可以创建和管理您自己的血液请求。"
+    },
+    "est": {
+      "welcome": "欢迎，{{name}}",
+      "subtitle": "管理您的血液请求并寻找捐赠者。",
+      "openRequests": "开放请求",
+      "manageRequests": "管理请求",
+      "totalDonors": "注册捐赠者",
+      "findDonors": "寻找捐赠者",
+      "allOpenRequests": "开放请求概览"
+    },
+    "req": {
+      "welcome": "欢迎，{{name}}",
+      "subtitle": "管理您的请求并寻求帮助。",
+      "yourRequests": "您的请求",
+      "yourRequestsCount": "您有 {{count}} 个请求。",
+      "myRequestsDesc": "创建并跟踪您的血液请求。",
+      "findDonorsDesc": "在您所在的地区搜索兼容的捐赠者。"
+    }
+  },
+  "profile": {
+    "updateSuccess": "个人资料更新成功。",
+    "personalInfo": "个人信息",
+    "age": "年龄",
+    "eligible": "符合捐赠条件",
+    "notEligible": "目前不符合条件",
+    "nextDonation": "下一次可能的捐赠日期",
+    "pointsAndBadges": "积分和徽章",
+    "totalPoints": "您的积分",
+    "noBadges": "您还没有获得任何徽章。",
+    "donationHistory": "捐赠历史",
+    "addDonationTitle": "添加捐赠",
+    "selectEstablishment": "请选择一个机构。",
+    "establishmentLabel": "机构",
+    "donationDateLabel": "捐赠日期",
+    "donationReasonLabel": "原因（可选）",
+    "addDonation": "添加捐赠",
+    "noDonations": "尚无捐赠记录。",
+    "username": "用户名",
+    "establishmentInfo": "机构信息",
+    "viewDetails": "查看详情",
+    "compatibleDonors": "兼容的捐赠者",
+    "noCompatibleDonors": "数据库中未找到此血型的兼容捐赠者。"
+  },
+  "charts": {
+    "noData": "无数据显示。",
+    "donationHistoryTitle": "每年捐赠次数",
+    "donationsUnit": "次捐赠",
+    "units": "单位"
+  },
+  "badges": {
+    "first_donation": {
+      "name": "第一滴",
+      "description": "恭喜您第一次献血！"
+    },
+    "regular_donor": {
+      "name": "定期捐赠者",
+      "description": "您已经捐赠了5次。继续努力！"
+    },
+    "hero_donor": {
+      "name": "英雄捐赠者",
+      "description": "10次捐赠！您是真正的英雄。"
+    },
+    "lifesaver": {
+      "name": "救生员",
+      "description": "25次捐赠！您的慷慨令人难以置信。"
+    },
+    "legend": {
+      "name": "活着的传奇",
+      "description": "50次捐赠！您是所有人的榜样。"
+    }
+  },
+  "donorsList": {
+    "title": "捐赠者列表",
+    "subtitle": "按姓名搜索捐赠者或按血型和省份筛选。",
+    "searchByNameLabel": "按姓名搜索",
+    "searchByNamePlaceholder": "输入姓名...",
+    "allGroups": "所有血型",
+    "allWilayas": "所有省份",
+    "noResults": "没有符合您搜索条件的捐赠者。"
+  },
+  "myRequests": {
+    "title": "我的请求",
+    "subtitleEstablishment": "在此管理您机构的所有血液请求。",
+    "subtitleRequester": "在此管理您所有的个人血液请求。",
+    "newRequest": "新请求",
+    "editRequest": "编辑请求",
+    "postedOn": "发布于",
+    "quantity": "数量（单位）",
+    "units": "单位",
+    "urgency": "紧急程度",
+    "notesPlaceholder": "在此处添加其他注释...",
+    "statusLabel": "状态",
+    "establishmentNameLabel": "机构名称",
+    "contactNameLabel": "联系人姓名",
+    "contactPhoneLabel": "联系电话",
+    "noRequests": "尚未发布任何请求。",
+    "latitude": "纬度",
+    "longitude": "经度",
+    "responsesCount": "{{count}} 名捐赠者已响应",
+    "approvedDonors": "已批准的捐赠者",
+    "approve": "批准",
+    "approved": "已批准",
+    "approvedCount": "{{count}}/{{total}} 已批准",
+    "respondedDonors": "已响应的捐赠者",
+    "requestDetails": "请求详情",
+    "requestInfo": "请求信息",
+    "approvedDonorsList": "已批准的捐赠者",
+    "noApprovedDonors": "此请求尚无已批准的捐赠者。",
+    "donorName": "捐赠者姓名",
+    "donorPhone": "电话",
+    "notes": "备注"
+  },
+  "status": {
+    "Open": "开放",
+    "Closed": "关闭",
+    "Fulfilled": "已完成"
+  },
+  "urgency": {
+    "Normal": "正常",
+    "Urgent": "紧急"
+  },
+  "findRequests": {
+    "title": "查找请求",
+    "subtitle": "浏览当前的血液请求。",
+    "bloodRequestFor": "血液请求：{{group}} 型",
+    "distanceAway": "距离约{{distance}}公里",
+    "iCanDonate": "我可以捐赠",
+    "alreadyResponded": "您已响应",
+    "locationPermissionDenied": "地理位置权限被拒绝。",
+    "locationUnavailable": "您的位置不可用。",
+    "locationTimeout": "地理位置请求超时。",
+    "locationError": "检索您的位置时发生错误。",
+    "locationErrorTitle": "地理位置错误",
+    "locationNotSupported": "您的浏览器不支持地理位置。",
+    "showCompatibleOnly": "仅显示兼容的请求",
+    "approvedDonors": "已批准的捐赠者"
+  },
+  "establishmentsPage": {
+    "title": "医疗机构",
+    "subtitle": "查找医院、诊所和血库。",
+    "searchByName": "按名称搜索...",
+    "filterByType": "按类型筛选",
+    "filterByWilaya": "按省份筛选",
+    "filterByCommune": "按城市筛选",
+    "noResults": "没有符合您条件的机构。"
+  },
+  "leaderboard": {
+    "title": "捐赠者排行榜",
+    "subtitle": "发现我们社区中最忠诚的捐赠者。",
+    "you": "您",
+    "viewProfile": "查看个人资料"
+  },
+  "publicProfile": {
+    "notFound": "未找到捐赠者。",
+    "backToLeaderboard": "返回排行榜"
+  },
+  "aiExpertPage": {
+    "title": "人工智能献血专家",
+    "welcome": "您好！我是您关于献血所有问题的虚拟助手。我能为您做些什么？",
+    "inputPlaceholder": "在这里提出您的问题...",
+    "genericError": "抱歉，发生错误。请稍后再试。"
+  }
+}

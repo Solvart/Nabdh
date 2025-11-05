@@ -1,0 +1,258 @@
+{
+  "global": {
+    "edit": "Düzenle",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "profile": "Profil",
+    "all": "Tümü",
+    "close": "Kapat",
+    "confirmDelete": "Bu öğeyi silmek istediğinizden emin misiniz?",
+    "toggleFilters": "Filtreleri Göster/Gizle",
+    "aiExpert": "Yapay Zeka Uzmanı",
+    "viewAll": "Tümünü gör",
+    "none": "Yok",
+    "view": "Görüntüle"
+  },
+  "nav": {
+    "dashboard": "Anasayfa",
+    "findRequests": "Talepler",
+    "leaderboard": "Sıralama",
+    "profile": "Profil",
+    "requests": "Talepler",
+    "donors": "Bağışçılar",
+    "about": "Hakkında",
+    "myRequests": "Taleplerim",
+    "findDonors": "Bağışçılar"
+  },
+  "home": {
+    "welcome": "Nabdh'a Hoş Geldiniz",
+    "tagline": "Her damla önemlidir. Bağlanın, bağış yapın, hayat kurtarın.",
+    "donorSpace": "Bağışçı Alanı",
+    "establishmentSpace": "Kurum Alanı",
+    "requesterSpace": "Talep Eden Alanı",
+    "copyright": "© 2024 Nabdh. Tüm hakları saklıdır."
+  },
+  "auth": {
+    "donorSpaceTitle": "Bağışçı Alanı",
+    "estSpaceTitle": "Kurum Alanı",
+    "reqSpaceTitle": "Talep Eden Alanı",
+    "login": "Giriş Yap",
+    "signup": "Kaydol",
+    "identifierLabel": "E-posta veya kullanıcı adı",
+    "passwordLabel": "Şifre",
+    "loginButton": "Giriş Yap",
+    "loginError": "Giriş bilgileri yanlış.",
+    "passwordMismatch": "Şifreler eşleşmiyor.",
+    "signupButton": "Kaydol",
+    "firstNameLabel": "Ad",
+    "lastNameLabel": "Soyad",
+    "emailLabel": "E-posta",
+    "confirmPasswordLabel": "Şifreyi Onayla",
+    "dobLabel": "Doğum Tarihi",
+    "genderLabel": "Cinsiyet",
+    "gender": {
+      "male": "Erkek",
+      "female": "Kadın"
+    },
+    "bloodGroupLabel": "Kan Grubu",
+    "phoneLabel": "Telefon",
+    "wilayaLabel": "İl",
+    "communeLabel": "İlçe",
+    "backToHome": "Anasayfaya Dön",
+    "estNameLabel": "Kurum Adı",
+    "estTypeLabel": "Kurum Türü",
+    "addressLabel": "Adres",
+    "googleMapsUrlLabel": "Google Haritalar Bağlantısı",
+    "fullNameLabel": "Tam Ad"
+  },
+  "establishmentTypes": {
+    "Hôpital": "Hastane",
+    "Clinique": "Klinik",
+    "Banque_de_Sang": "Kan Bankası"
+  },
+  "passwordStrength": {
+    "veryWeak": "Çok Zayıf",
+    "weak": "Zayıf",
+    "medium": "Orta",
+    "strong": "Güçlü",
+    "veryStrong": "Çok Güçlü"
+  },
+  "header": {
+    "greeting": "Merhaba, {{name}}",
+    "logout": "Çıkış Yap"
+  },
+  "dashboard": {
+    "donor": {
+      "welcome": "Hoş geldin, {{name}}!",
+      "subtitle": "Fark yarattığınız için teşekkür ederiz.",
+      "totalPoints": "Toplam Puan",
+      "totalDonations": "Toplam Bağış",
+      "badgesEarned": "Kazanılan Rozetler",
+      "donationStatus": "Bağış Durumu",
+      "lastDonation": "Son bağış",
+      "findRequestsDesc": "Yakınınızdaki acil kan taleplerini bulun.",
+      "leaderboardDesc": "En aktif bağışçılar arasındaki sıralamanızı görün.",
+      "myRequestsDesc": "Siz veya bir yakınınız ihtiyaç duyarsa kendi kan taleplerinizi oluşturun ve yönetin."
+    },
+    "est": {
+      "welcome": "Hoş geldiniz, {{name}}",
+      "subtitle": "Kan taleplerinizi yönetin ve bağışçı bulun.",
+      "openRequests": "Açık Talepler",
+      "manageRequests": "Talepleri Yönet",
+      "totalDonors": "Kayıtlı Bağışçılar",
+      "findDonors": "Bağışçı Bul",
+      "allOpenRequests": "Açık Taleplere Genel Bakış"
+    },
+    "req": {
+      "welcome": "Hoş geldin, {{name}}",
+      "subtitle": "Taleplerinizi yönetin ve yardım bulun.",
+      "yourRequests": "Talepleriniz",
+      "yourRequestsCount": "{{count}} talebiniz var.",
+      "myRequestsDesc": "Kan taleplerinizi oluşturun ve takip edin.",
+      "findDonorsDesc": "Bölgenizdeki uyumlu bağışçıları arayın."
+    }
+  },
+  "profile": {
+    "updateSuccess": "Profil başarıyla güncellendi.",
+    "personalInfo": "Kişisel Bilgiler",
+    "age": "Yaş",
+    "eligible": "Bağış Yapabilir",
+    "notEligible": "Şu anda uygun değil",
+    "nextDonation": "Bir sonraki olası bağış tarihi",
+    "pointsAndBadges": "Puanlar ve Rozetler",
+    "totalPoints": "Puanlarınız",
+    "noBadges": "Henüz hiç rozet kazanmadınız.",
+    "donationHistory": "Bağış Geçmişi",
+    "addDonationTitle": "Bağış Ekle",
+    "selectEstablishment": "Lütfen bir kurum seçin.",
+    "establishmentLabel": "Kurum",
+    "donationDateLabel": "Bağış Tarihi",
+    "donationReasonLabel": "Sebep (isteğe bağlı)",
+    "addDonation": "Bağış Ekle",
+    "noDonations": "Henüz kayıtlı bağış yok.",
+    "username": "Kullanıcı Adı",
+    "establishmentInfo": "Kurum Bilgileri",
+    "viewDetails": "Detayları Görüntüle",
+    "compatibleDonors": "Uyumlu Bağışçılar",
+    "noCompatibleDonors": "Bu kan grubu için veritabanında uyumlu bağışçı bulunamadı."
+  },
+  "charts": {
+    "noData": "Görüntülenecek veri yok.",
+    "donationHistoryTitle": "Yıllara Göre Bağışlar",
+    "donationsUnit": "bağış",
+    "units": "ünite"
+  },
+  "badges": {
+    "first_donation": {
+      "name": "İlk Damla",
+      "description": "İlk kan bağışınız için tebrikler!"
+    },
+    "regular_donor": {
+      "name": "Düzenli Bağışçı",
+      "description": "5 bağış yaptınız. Devam edin!"
+    },
+    "hero_donor": {
+      "name": "Kahraman Bağışçı",
+      "description": "10 bağış! Gerçek bir kahramansınız."
+    },
+    "lifesaver": {
+      "name": "Hayat Kurtaran",
+      "description": "25 bağış! Cömertliğiniz inanılmaz."
+    },
+    "legend": {
+      "name": "Yaşayan Efsane",
+      "description": "50 bağış! Herkes için bir ilham kaynağısınız."
+    }
+  },
+  "donorsList": {
+    "title": "Bağışçı Listesi",
+    "subtitle": "Ada göre bağışçı arayın veya kan grubu ve ile göre filtreleyin.",
+    "searchByNameLabel": "Ada göre ara",
+    "searchByNamePlaceholder": "Bir ad girin...",
+    "allGroups": "Tüm gruplar",
+    "allWilayas": "Tüm iller",
+    "noResults": "Arama kriterlerinize uyan bağışçı bulunamadı."
+  },
+  "myRequests": {
+    "title": "Taleplerim",
+    "subtitleEstablishment": "Kurumunuzun tüm kan taleplerini buradan yönetin.",
+    "subtitleRequester": "Tüm kişisel kan taleplerinizi buradan yönetin.",
+    "newRequest": "Yeni Talep",
+    "editRequest": "Talebi Düzenle",
+    "postedOn": "Yayınlanma tarihi",
+    "quantity": "Miktar (ünite)",
+    "units": "ünite",
+    "urgency": "Aciliyet",
+    "notesPlaceholder": "Buraya ek notlar ekleyin...",
+    "statusLabel": "Durum",
+    "establishmentNameLabel": "Kurum Adı",
+    "contactNameLabel": "İletişim Adı",
+    "contactPhoneLabel": "İletişim Telefonu",
+    "noRequests": "Henüz yayınlanmış bir talep yok.",
+    "latitude": "Enlem",
+    "longitude": "Boylam",
+    "responsesCount": "{{count}} bağışçı yanıt verdi",
+    "approvedDonors": "Onaylanmış Bağışçılar",
+    "approve": "Onayla",
+    "approved": "Onaylandı",
+    "approvedCount": "{{count}}/{{total}} onaylandı",
+    "respondedDonors": "Yanıt Veren Bağışçılar",
+    "requestDetails": "Talep Ayrıntıları",
+    "requestInfo": "Talep Bilgileri",
+    "approvedDonorsList": "Onaylanmış Bağışçılar",
+    "noApprovedDonors": "Bu talep için henüz hiçbir bağışçı onaylanmadı.",
+    "donorName": "Bağışçı Adı",
+    "donorPhone": "Telefon",
+    "notes": "Notlar"
+  },
+  "status": {
+    "Open": "Açık",
+    "Closed": "Kapalı",
+    "Fulfilled": "Karşılandı"
+  },
+  "urgency": {
+    "Normal": "Normal",
+    "Urgent": "Acil"
+  },
+  "findRequests": {
+    "title": "Talep Bul",
+    "subtitle": "Mevcut kan taleplerine göz atın.",
+    "bloodRequestFor": "Kan talebi: Grup {{group}}",
+    "distanceAway": "yaklaşık {{distance}} km uzakta",
+    "iCanDonate": "Bağış yapabilirim",
+    "alreadyResponded": "Yanıtladınız",
+    "locationPermissionDenied": "Coğrafi konum izni reddedildi.",
+    "locationUnavailable": "Konumunuz kullanılamıyor.",
+    "locationTimeout": "Coğrafi konum isteği zaman aşımına uğradı.",
+    "locationError": "Konumunuz alınırken bir hata oluştu.",
+    "locationErrorTitle": "Coğrafi Konum Hatası",
+    "locationNotSupported": "Tarayıcınız coğrafi konumu desteklemiyor.",
+    "showCompatibleOnly": "Yalnızca uyumlu talepleri göster",
+    "approvedDonors": "Onaylanmış bağışçılar"
+  },
+  "establishmentsPage": {
+    "title": "Sağlık Kurumları",
+    "subtitle": "Hastaneler, klinikler ve kan bankaları bulun.",
+    "searchByName": "Ada göre ara...",
+    "filterByType": "Türe göre filtrele",
+    "filterByWilaya": "İle göre filtrele",
+    "filterByCommune": "İlçeye göre filtrele",
+    "noResults": "Kriterlerinize uyan kurum bulunamadı."
+  },
+  "leaderboard": {
+    "title": "Bağışçı Sıralaması",
+    "subtitle": "Topluluğumuzdaki en özverili bağışçıları keşfedin.",
+    "you": "Siz",
+    "viewProfile": "Profili görüntüle"
+  },
+  "publicProfile": {
+    "notFound": "Bağışçı bulunamadı.",
+    "backToLeaderboard": "Sıralamaya Geri Dön"
+  },
+  "aiExpertPage": {
+    "title": "Yapay Zeka Kan Bağışı Uzmanı",
+    "welcome": "Merhaba! Kan bağışı ile ilgili tüm sorularınız için sanal asistanınızım. Size nasıl yardımcı olabilirim?",
+    "inputPlaceholder": "Sorunuzu buraya sorun...",
+    "genericError": "Üzgünüz, bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+  }
+}

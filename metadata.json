@@ -1,0 +1,7 @@
+{
+  "name": "Nabdh",
+  "description": "Nabdh (Pulsation) est une application qui met en relation les donneurs de sang et les établissements de santé. Les donneurs peuvent gérer leur profil et leur historique de dons, tandis que les établissements peuvent publier et gérer les demandes de sang.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

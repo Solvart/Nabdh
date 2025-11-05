@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nabdh</title>
+  <link rel="icon" type="image/png" href="https://www.solvart.net/wp-content/uploads/2025/11/Nabdh_logo_light_mode.png">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto Kufi Arabic:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <script>
+    // Tailwind Custom Configuration
+    tailwind.config = {
+      darkMode: 'class', // Activation du mode sombre
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Poppins', 'sans-serif'],
+            arabic: ['Alexandria', 'sans-serif'], // Ajout de la police Alexandria pour l'arabe
+          },
+          colors: {
+            primary: {
+              light: '#ff6b6b',
+              DEFAULT: '#e53e3e',
+              dark: '#c53030',
+            },
+          },
+        },
+      },
+    };
+  </script>
+
+  <style>
+    /* Custom styles for chat bubbles */
+    .chat-bubble-user {
+        @apply bg-primary text-white rounded-t-xl rounded-bl-xl;
+    }
+    .chat-bubble-model {
+        @apply bg-gray-200 text-gray-800 rounded-t-xl rounded-br-xl;
+    }
+    /* Appliquer la police Alexandria pour la langue arabe */
+    html[lang="ar"] body {
+      font-family: "Noto Kufi Arabic", sans-serif;
+    }
+  </style>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "react": "https://aistudiocdn.com/react@^19.2.0",
+      "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+      "react/": "https://aistudiocdn.com/react@^19.2.0/",
+      "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.5",
+      "@google/genai": "https://aistudiocdn.com/@google/genai@^1.28.0",
+      "lucide-react": "https://aistudiocdn.com/lucide-react@^0.552.0",
+      "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0",
+      "chart.js": "https://aistudiocdn.com/chart.js@^4.4.3",
+      "react-chartjs-2": "https://aistudiocdn.com/react-chartjs-2@^5.2.0"
+    }
+  }
+  </script>
+</head>
+<body class="bg-white dark:bg-gray-900">
+  <noscript>Vous devez activer JavaScript pour exécuter cette application.</noscript>
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
